@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont-button{
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 83px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width:50%;
+  }
+  
+  a img {
+    border: none; 
+  }
+
+.cart{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.add-to-cart {
+    background-color: green;
+}
+
+button.remove-from-cart {
+    background-color: red;
+}
+
+#apply-discount{
+
+
+border-radius: 6px;
+width: 221px;
+height: 36px;
+border: 2px solid blue;
+background: none;
+color: black;
+text-overflow: revert-layer;
+font-size: 17px;
+}
+
+#apply-discount:hover{
+    background-color: blue;
+}
+
+.remove-from-cart {
+
+    background-color: red;
+    gap: 25px;
+    grid-area: initial;
+margin: 8px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../script/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <main>
+        
+        
+        <section class="products">
+            <div class="grid">
+            <div class="product">
+                <img src="../script/img/images.jpg" alt="img">
+                <div class="content-info" style="
+                height: 41%;
+                margin-top: 38px ">
+                <p>Precio: $100000</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="../script/img/images1.jpg" alt="img">
+                <div class="content-info">
+                    <p>Precio: $200000</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="../script/img/0.1Web-9.jpg" alt="img">
+                <div class="content-info">
+                    <p>Precio: $150000</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="../script/img/img4.jpg" alt="img">
+                <div class="content-info">
+                    <p>Precio: $100000</p>
+                    <button class="add-to-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items">
+                <!-- Los productos seleccionados se agregarán aquí -->
+            </ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <div class="cont-button">
+                <button id="apply-discount">Aplicar Descuento</button>
+            </div>
+        </section>
+    </main>
+    <!-- jQuery es una biblioteca liviana y fácil de usar que puede ser útil 
+    cuando necesito realizar manipulaciones del DOM sencillas y rápidas. 
+    Es ampliamente compatible con navegadores y puede ser una solución efectiva
+     para agregar funcionalidades como el contador de carrito. -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../script/js/app.js"></script>
+</body>
+</html>
