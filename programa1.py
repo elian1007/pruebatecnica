@@ -1,6 +1,7 @@
 import sys
 import mysql.connector
 from datetime import datetime
+# en la terminal ejecutamos python inicial.py archivo.txt (nombre del archivo a ejecutar)
 
 # Función para contar líneas, palabras y caracteres en un archivo
 def contar_archivo(archivo):
@@ -18,7 +19,6 @@ def guardar_en_mysql(archivo, cant_lineas, cant_palabras, cant_caracteres):
            user="root",
            password="",
            database="datosdb",
-        #    charset='utf8mb4'  # Agrega el charset para admitir utf-8
        )
 
        cursor = connection.cursor()

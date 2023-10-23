@@ -1,5 +1,7 @@
 import sys
 
+# en la terminal ejecutamos python inicial.py archivo.txt (nombre del archivo a ejecutar)
+# N (le indicamos la cantidad)
 def imprimir_primeras_n_lineas(archivo, n):
     try:
         with open(archivo, 'r', encoding='utf-8') as file:
